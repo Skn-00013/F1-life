@@ -1,0 +1,178 @@
+[
+  {
+    "position": 1,
+    "name": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "points": 341,
+    "lastGpChange": 25,
+    "image": ""
+  },
+  {
+    "position": 2,
+    "name": "Lando Norris",
+    "team": "McLaren",
+    "points": 318,
+    "lastGpChange": 18,
+    "image": ""
+  },
+  {
+    "position": 3,
+    "name": "Charles Leclerc",
+    "team": "Ferrari",
+    "points": 287,
+    "lastGpChange": 15,
+    "image": ""
+  },
+  {
+    "position": 4,
+    "name": "Oscar Piastri",
+    "team": "McLaren",
+    "points": 264,
+    "lastGpChange": 12,
+    "image": ""
+  },
+  {
+    "position": 5,
+    "name": "Lewis Hamilton",
+    "team": "Ferrari",
+    "points": 241,
+    "lastGpChange": 10,
+    "image": ""
+  },
+  {
+    "position": 6,
+    "name": "George Russell",
+    "team": "Mercedes",
+    "points": 198,
+    "lastGpChange": 8,
+    "image": ""
+  },
+  {
+    "position": 7,
+    "name": "Carlos Sainz Jr.",
+    "team": "Williams",
+    "points": 176,
+    "lastGpChange": 6,
+    "image": ""
+  },
+  {
+    "position": 8,
+    "name": "Fernando Alonso",
+    "team": "Aston Martin",
+    "points": 154,
+    "lastGpChange": 4,
+    "image": ""
+  },
+  {
+    "position": 9,
+    "name": "Pierre Gasly",
+    "team": "Alpine",
+    "points": 132,
+    "lastGpChange": 2,
+    "image": ""
+  },
+  {
+    "position": 10,
+    "name": "Lance Stroll",
+    "team": "Aston Martin",
+    "points": 98,
+    "lastGpChange": 1,
+    "image": ""
+  },
+  {
+    "position": 11,
+    "name": "Alexander Albon",
+    "team": "Williams",
+    "points": 87,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 12,
+    "name": "Yuki Tsunoda",
+    "team": "Racing Bulls",
+    "points": 73,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 13,
+    "name": "Nico Hülkenberg",
+    "team": "Kick Sauber",
+    "points": 64,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 14,
+    "name": "Kevin Magnussen",
+    "team": "Haas",
+    "points": 52,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 15,
+    "name": "Daniel Ricciardo",
+    "team": "Racing Bulls",
+    "points": 41,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 16,
+    "name": "Esteban Ocon",
+    "team": "Alpine",
+    "points": 38,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 17,
+    "name": "Zhou Guanyu",
+    "team": "Kick Sauber",
+    "points": 29,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 18,
+    "name": "Logan Sargeant",
+    "team": "Haas",
+    "points": 18,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 19,
+    "name": "Oliver Bearman",
+    "team": "Cadillac",
+    "points": 12,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 20,
+    "name": "Franco Colapinto",
+    "team": "Alpine",
+    "points": 8,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 21,
+    "name": "Jack Doohan",
+    "team": "Cadillac",
+    "points": 5,
+    "lastGpChange": 0,
+    "image": ""
+  },
+  {
+    "position": 22,
+    "name": "Gabriel Bortoleto",
+    "team": "Kick Sauber",
+    "points": 3,
+    "lastGpChange": 0,
+    "image": ""
+  }
+]
