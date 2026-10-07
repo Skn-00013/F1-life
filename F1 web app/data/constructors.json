@@ -1,0 +1,79 @@
+[
+  {
+    "position": 1,
+    "name": "McLaren",
+    "nationality": "United Kingdom",
+    "points": 582,
+    "image": ""
+  },
+  {
+    "position": 2,
+    "name": "Ferrari",
+    "nationality": "Italy",
+    "points": 528,
+    "image": ""
+  },
+  {
+    "position": 3,
+    "name": "Red Bull Racing",
+    "nationality": "Austria",
+    "points": 341,
+    "image": ""
+  },
+  {
+    "position": 4,
+    "name": "Mercedes",
+    "nationality": "Germany",
+    "points": 198,
+    "image": ""
+  },
+  {
+    "position": 5,
+    "name": "Aston Martin",
+    "nationality": "United Kingdom",
+    "points": 252,
+    "image": ""
+  },
+  {
+    "position": 6,
+    "name": "Williams",
+    "nationality": "United Kingdom",
+    "points": 263,
+    "image": ""
+  },
+  {
+    "position": 7,
+    "name": "Alpine",
+    "nationality": "France",
+    "points": 178,
+    "image": ""
+  },
+  {
+    "position": 8,
+    "name": "Racing Bulls",
+    "nationality": "Italy",
+    "points": 114,
+    "image": ""
+  },
+  {
+    "position": 9,
+    "name": "Kick Sauber",
+    "nationality": "Switzerland",
+    "points": 96,
+    "image": ""
+  },
+  {
+    "position": 10,
+    "name": "Haas",
+    "nationality": "USA",
+    "points": 70,
+    "image": ""
+  },
+  {
+    "position": 11,
+    "name": "Cadillac",
+    "nationality": "USA",
+    "points": 17,
+    "image": ""
+  }
+]
