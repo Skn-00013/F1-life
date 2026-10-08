@@ -5,7 +5,7 @@
     "team": "Mercedes",
     "points": 320,
     "lastGpChange": 18,
-    "image": "/assets/drivers/kiwi kid.jpg"
+    "image": "assets/drivers/kiwi kid.jpg"
   },
   {
     "position": 2,
@@ -13,7 +13,7 @@
     "team": "Mercedes",
     "points": 236,
     "lastGpChange": 0,
-    "image": "/assets/drivers/diva russel.jpg"
+    "image": "assets/drivers/diva russel.jpg"
   },
   {
     "position": 3,
@@ -21,7 +21,7 @@
     "team": "Ferrari",
     "points": 214,
     "lastGpChange": 15,
-    "image": "/assets/drivers/sir hamli.jpg"
+    "image": "assets/drivers/sir hamli.jpg"
   },
   {
     "position": 4,
@@ -29,7 +29,7 @@
     "team": "Ferrari",
     "points": 191,
     "lastGpChange": 12,
-    "image": "/assets/drivers/charles leclerc.jpg"
+    "image": "assets/drivers/charles leclerc.jpg"
   },
   {
     "position": 5,
@@ -37,7 +37,7 @@
     "team": "McLaren",
     "points": 188,
     "lastGpChange": 2,
-    "image": "/assets/drivers/lando.jpg"
+    "image": "assets/drivers/lando.jpg"
   },
   {
     "position": 6,
@@ -53,7 +53,7 @@
     "team": "McLaren",
     "points": 128,
     "lastGpChange": 8,
-    "image": "/assets/drivers/Oscar Pastry.jpg"
+    "image": "assets/drivers/Oscar Pastry.jpg"
   },
   {
     "position": 8,
@@ -61,7 +61,7 @@
     "team": "Red Bull",
     "points": 96,
     "lastGpChange": 10,
-    "image": "/assets/drivers/isak hadjar.jpeg"
+    "image": "assets/drivers/isak hadjar.jpeg"
   },
   {
     "position": 9,
@@ -69,7 +69,7 @@
     "team": "RB F1 Team",
     "points": 65,
     "lastGpChange": 6,
-    "image": "/assets/drivers/leam losen.jpeg"
+    "image": "assets/drivers/leam losen.jpeg"
   },
   {
     "position": 10,
@@ -77,7 +77,7 @@
     "team": "Alpine F1 Team",
     "points": 41,
     "lastGpChange": 0,
-    "image": "/assets/drivers/litral pear.jpg"
+    "image": "assets/drivers/litral pear.jpg"
   },
   {
     "position": 11,
@@ -85,7 +85,7 @@
     "team": "RB F1 Team",
     "points": 38,
     "lastGpChange": 1,
-    "image": "/assets/drivers/arvind agra.jpeg"
+    "image": "assets/drivers/arvind agra.jpeg"
   },
   {
     "position": 12,
@@ -93,7 +93,7 @@
     "team": "Alpine F1 Team",
     "points": 27,
     "lastGpChange": 0,
-    "image": "/assets/drivers/OIP.webp"
+    "image": "assets/drivers/OIP.webp"
   },
   {
     "position": 13,
@@ -101,7 +101,7 @@
     "team": "Haas F1 Team",
     "points": 20,
     "lastGpChange": 0,
-    "image": "/assets/drivers/O liver.jpeg"
+    "image": "assets/drivers/O liver.jpeg"
   },
   {
     "position": 14,
@@ -109,7 +109,7 @@
     "team": "Audi",
     "points": 10,
     "lastGpChange": 0,
-    "image": "/assets/drivers/gabriel bortoleto.webp"
+    "image": "assets/drivers/gabriel bortoleto.webp"
   },
   {
     "position": 15,
@@ -117,7 +117,7 @@
     "team": "Audi",
     "points": 7,
     "lastGpChange": 0,
-    "image": "/assets/drivers/niko hulk.jpeg"
+    "image": "assets/drivers/niko hulk.jpeg"
   },
   {
     "position": 16,
@@ -125,7 +125,7 @@
     "team": "Haas F1 Team",
     "points": 7,
     "lastGpChange": 0,
-    "image": "/assets/drivers/Estaban ocaon.jpeg"
+    "image": "assets/drivers/Estaban ocaon.jpeg"
   },
   {
     "position": 17,
@@ -133,7 +133,7 @@
     "team": "Aston Martin",
     "points": 7,
     "lastGpChange": 4,
-    "image": "/assets/drivers/La padra.gif"
+    "image": "assets/drivers/La padra.gif"
   },
   {
     "position": 18,
@@ -141,7 +141,7 @@
     "team": "Williams",
     "points": 7,
     "lastGpChange": 0,
-    "image": "/assets/drivers/Carlos_Sainz.jpeg"
+    "image": "assets/drivers/Carlos_Sainz.jpeg"
   },
   {
     "position": 19,
@@ -149,7 +149,7 @@
     "team": "Williams",
     "points": 5,
     "lastGpChange": 0,
-    "image": "/assets/drivers/alex something.jpeg"
+    "image": "assets/drivers/alex something.jpeg"
   },
   {
     "position": 20,
@@ -157,7 +157,7 @@
     "team": "RB F1 Team",
     "points": 1,
     "lastGpChange": null,
-    "image": "/assets/drivers/ninja japan.jpeg"
+    "image": "assets/drivers/ninja japan.jpeg"
   },
   {
     "position": 21,
@@ -165,7 +165,7 @@
     "team": "Aston Martin",
     "points": 0,
     "lastGpChange": 0,
-    "image": "/assets/drivers/stroller.jpg"
+    "image": "assets/drivers/stroller.jpg"
   },
   {
     "position": 22,
@@ -173,7 +173,7 @@
     "team": "Cadillac F1 Team",
     "points": 0,
     "lastGpChange": 0,
-    "image": "/assets/drivers/botas sad.jpg"
+    "image": "assets/drivers/botas sad.jpg"
   },
   {
     "position": 23,
@@ -181,6 +181,6 @@
     "team": "Cadillac F1 Team",
     "points": 0,
     "lastGpChange": 0,
-    "image": "/assets/drivers/segio pariz.jpeg"
+    "image": "assets/drivers/segio pariz.jpeg"
   }
 ]
