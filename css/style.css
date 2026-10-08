@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+  color: #111827;
+  min-height: 100vh;
+}
+
+/* ===== Top bar ===== */
+
+.topbar {
+  padding: 28px 20px 10px;
+  text-align: center;
+}
+
+.topbar h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+/* ===== Main layout ===== */
+
+.app {
+  width: min(1200px, calc(100% - 32px));
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+/* ===== Views ===== */
+
+.view {
+  display: none;
+}
+
+.view.active {
+  display: block;
+}
+
+/* ===== Status text ===== */
+
+.status {
+  min-height: 24px;
+  margin-bottom: 16px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.status:empty {
+  display: none;
+}
+
+/* ===== Grid ===== */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+/* Championship cards get a bit more width */
+#drivers-grid,
+#constructors-grid {
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+/* ===== Card ===== */
+
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(17, 24, 39, 0.06);
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Race card ===== */
+
+.race-card.finished {
+  opacity: 0.42;
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.card-header h3 {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.badge {
+  flex-shrink: 0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #eef2f7;
+  color: #374151;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.subtle {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+/* ===== Session rows ===== */
+
+.session {
+  display: grid;
+  grid-template-columns: 72px 1fr 66px;
+  column-gap: 10px;
+  align-items: center;
+  padding: 11px 2px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.session + .session {
+  border-top: 1px solid rgba(17, 24, 39, 0.1);
+}
+
+.session .s-label {
+  color: #6b7280;
+  text-align: center;
+}
+
+.session .s-date {
+  color: #111827;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.session .s-time {
+  color: #6b7280;
+  font-size: 13px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.session.strong,
+.session.strong .s-label,
+.session.strong .s-time {
+  color: #111827;
+  font-weight: 700;
+}
+
+/* ===== Timezone note ===== */
+
+.tz-note {
+  color: #9ca3af;
+  font-size: 12px;
+  margin: 6px 0 12px;
+}
+/* ===== Championship cards (drivers & constructors) ===== */
+
+/* ===== Championship cards (drivers & constructors) ===== */
+
+.driver-card,
+.constructor-card {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  gap: 16px;
+  align-items: center;
+  padding: 22px 20px; /* Increased padding for more breathing room */
+}
+
+/* Adds internal vertical space so text doesn't feel squeezed */
+.driver-info,
+.constructor-info {
+  padding: 6px 0; 
+}
+
+/* Position badge */
+.pos {
+  min-width: 30px;
+  height: 30px;
+  padding: 0 6px;
+  border-radius: 10px;
+  background: #eef2f7;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+}
+
+.pos.top {
+  background: #111827;
+  color: #ffffff;
+}
+
+.driver-card img,
+.constructor-card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  object-fit: cover;
+  background: #e5e7eb;
+}
+
+.driver-info h3,
+.constructor-info h3 {
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 2px;
+}
+
+/* Right-hand stats column */
+.card-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  text-align: right;
+}
+
+.points {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.points .pts {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9ca3af;
+  margin-left: 4px;
+}
+
+.change {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.change .chg-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: #9ca3af;
+  margin-left: 5px;
+}
+
+.change.positive {
+  color: #16a34a;
+}
+
+.change.negative {
+  color: #dc2626;
+}
+
+.change.neutral {
+  color: #6b7280;
+}
+
+/* ===== macOS-style dock ===== */
+
+.dock {
+  position: fixed;
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+  z-index: 1000;
+}
+
+.dock-item {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 18px;
+  background: transparent;
+  font-size: 28px;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: transform 0.16s ease, background 0.16s ease;
+}
+
+.dock-item:hover {
+  transform: translateY(-4px) scale(1.08);
+  background: rgba(17, 24, 39, 0.05);
+}
+
+.dock-item.active {
+  background: rgba(17, 24, 39, 0.08);
+}
+
+.dock-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #111827;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 640px) {
+  .topbar h1 {
+    font-size: 22px;
+  }
+
+  .grid,
+  #drivers-grid,
+  #constructors-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dock {
+    gap: 10px;
+    padding: 10px 12px;
+    bottom: 16px;
+  }
+
+  .dock-item {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+
+  .session {
+    grid-template-columns: 64px 1fr 60px;
+    column-gap: 8px;
+  }
+}
+/* ===== Extra small phones ===== */
+
+@media (max-width: 480px) {
+  .driver-card,
+  .constructor-card {
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .driver-card img,
+  .constructor-card img {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+  }
+
+  .pos {
+    min-width: 26px;
+    height: 26px;
+    font-size: 12px;
+  }
+
+  .points {
+    font-size: 16px;
+  }
+}
