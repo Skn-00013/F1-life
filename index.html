@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>F1 Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <h1 id="page-title">F1 Time Table</h1>
+  </header>
+
+  <main class="app">
+
+    <!-- F1 TIME TABLE -->
+    <section id="timetable" class="view active">
+      <p id="timetable-status" class="status"></p>
+      <div id="timetable-grid" class="grid"></div>
+    </section>
+
+    <!-- DRIVERS CHAMPIONSHIP -->
+    <section id="drivers" class="view">
+      <p id="drivers-status" class="status"></p>
+      <div id="drivers-grid" class="grid"></div>
+    </section>
+
+    <!-- CONSTRUCTORS CHAMPIONSHIP -->
+    <section id="constructors" class="view">
+      <p id="constructors-status" class="status"></p>
+      <div id="constructors-grid" class="grid"></div>
+    </section>
+
+  </main>
+
+  <!-- MACOS STYLE DOCK -->
+  <nav class="dock" aria-label="Main navigation">
+  <button class="dock-item active" data-view="timetable" title="F1 Time Table" aria-label="F1 Time Table">
+    <img src="assets/icons/races.png" alt="" />
+  </button>
+
+  <button class="dock-item" data-view="drivers" title="Drivers' Championship" aria-label="Drivers' Championship">
+    <img src="assets/icons/helmet.png" alt="" />
+  </button>
+
+  <button class="dock-item" data-view="constructors" title="Constructors' Championship" aria-label="Constructors' Championship">
+    <img src="assets/icons/constructors.png" alt="" />
+  </button>
+</nav>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
