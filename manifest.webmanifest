@@ -1,0 +1,16 @@
+{
+  "name": "F1 Hub",
+  "short_name": "F1 Hub",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#074331",
+  "theme_color": "#074331",
+  "icons": [
+    {
+      "src": "assets/icons/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

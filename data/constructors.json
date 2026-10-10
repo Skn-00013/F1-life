@@ -1,0 +1,79 @@
+[
+  {
+    "position": 1,
+    "name": "Mercedes",
+    "nationality": "German",
+    "points": 556,
+    "image": "/assets/constructors/mercedes.jpeg"
+  },
+  {
+    "position": 2,
+    "name": "Ferrari",
+    "nationality": "Italian",
+    "points": 405,
+    "image": "/assets/constructors/ferrari f1.jpeg"
+  },
+  {
+    "position": 3,
+    "name": "McLaren",
+    "nationality": "British",
+    "points": 316,
+    "image": "/assets/constructors/mclaren.png"
+  },
+  {
+    "position": 4,
+    "name": "Red Bull",
+    "nationality": "Austrian",
+    "points": 298,
+    "image": "/assets/constructors/redbull.jpg"
+  },
+  {
+    "position": 5,
+    "name": "RB F1 Team",
+    "nationality": "Italian",
+    "points": 90,
+    "image": "/assets/constructors/rb.webp"
+  },
+  {
+    "position": 6,
+    "name": "Alpine F1 Team",
+    "nationality": "French",
+    "points": 68,
+    "image": "/assets/constructors/alpine.png"
+  },
+  {
+    "position": 7,
+    "name": "Haas F1 Team",
+    "nationality": "American",
+    "points": 27,
+    "image": "/assets/constructors/hass.jpg"
+  },
+  {
+    "position": 8,
+    "name": "Audi",
+    "nationality": "German",
+    "points": 17,
+    "image": "/assets/constructors/audi.jpeg"
+  },
+  {
+    "position": 9,
+    "name": "Williams",
+    "nationality": "British",
+    "points": 12,
+    "image": "/assets/constructors/williams.png"
+  },
+  {
+    "position": 10,
+    "name": "Aston Martin",
+    "nationality": "British",
+    "points": 7,
+    "image": "/assets/constructors/aston martin.jpg"
+  },
+  {
+    "position": 11,
+    "name": "Cadillac F1 Team",
+    "nationality": "American",
+    "points": 0,
+    "image": "/assets/constructors/cadillac.jpg"
+  }
+]
